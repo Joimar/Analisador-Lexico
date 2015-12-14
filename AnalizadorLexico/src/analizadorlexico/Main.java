@@ -11,6 +11,8 @@ package analizadorlexico;
  */
 public class Main {
 private int teste;
+
+private String test;
     /**
      * @param args the command line arguments
      */

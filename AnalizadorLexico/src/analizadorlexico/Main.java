@@ -10,7 +10,7 @@ package analizadorlexico;
  * @author Joimar
  */
 public class Main {
-
+private int teste;
     /**
      * @param args the command line arguments
      */

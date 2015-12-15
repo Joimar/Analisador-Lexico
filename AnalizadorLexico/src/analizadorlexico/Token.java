@@ -11,7 +11,46 @@ package analizadorlexico;
  */
 public class Token {
     
-    
+    private int teste; int teste2;
     private String tipo;
+    private int linha;
+    
+    
+    
+    
+    
+    
+    
+    public void setTipo(String tipo)
+    {
+    
+        this.tipo = tipo;
+    
+    
+    
+    }
+    
+    public String getTipo()
+    {
+    
+        return tipo;
+    
+    }
+    
+    
+    public void setLinha(int linha)
+    {
+    
+        this.linha = linha;
+    
+    }
+    
+    public int getLinha()
+    {
+    
+        return linha;
+    
+    }
+    
     
 }

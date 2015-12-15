@@ -12,7 +12,24 @@ package analizadorlexico;
 public class Lexico {
     
     
+    private String palavras;
     
+    public void pegaPalavras(String palavras)
+    {
+    
+    
+        this.palavras = palavras;
+    
+    }
+    
+    public boolean isIdentificador(Token token)
+    {
+        boolean identificador = true;
+        
+        return identificador;
+        
+        
+    }
     
     
     
